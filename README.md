@@ -8,8 +8,8 @@ In this repository, we explore two ways you can easily and seamlessly deploy mod
 These notebooks are meant to be run entirely on Azure Databricks for end to end deployment. There is no need to switch to yaml files or Azure ML scripts.
 
 We focus on deploying our ML models on two main compute types:
-- Azure ML Managed Endpoint ([notebook]())
-- Azure AKS Compute Endpoint v.1 ([notebook]())
+- Azure ML Managed Endpoint ([notebook](https://github.com/julie-nguyen-ds/deploy-model-databricks-to-aml/blob/main/Training%20Wine%20Model%20to%20AML.ipynb))
+- Azure AKS Compute Endpoint v.1 ([notebook](https://github.com/julie-nguyen-ds/deploy-model-databricks-to-aml/blob/main/Training%20Wine%20Model%20to%20AKS.ipynb))
 
 ### Architecture Flow
 ![databricks-aml-deployment.gif](resources%2Fdatabricks-aml-deployment.gif)
@@ -22,5 +22,5 @@ We focus on deploying our ML models on two main compute types:
 - MLFlow
 
 ### Additional Links
-Official documentation on [Managed Endpoint vs Kubernetes Endpoint](https://learn.microsoft.com/en-us/azure/machine-learning/concept-endpoints-online?view=azureml-api-2#managed-online-endpoints-vs-kubernetes-online-endpoints)
-Official documentation on [AKSCompute (v1) vs KubernetesCompute (v2)](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-attach-kubernetes-anywhere?view=azureml-api-2#kubernetescompute-and-legacy-akscompute)
+- Official documentation on [Managed Endpoint vs Kubernetes Endpoint](https://learn.microsoft.com/en-us/azure/machine-learning/concept-endpoints-online?view=azureml-api-2#managed-online-endpoints-vs-kubernetes-online-endpoints)
+- Official documentation on [AKSCompute (v1) vs KubernetesCompute (v2)](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-attach-kubernetes-anywhere?view=azureml-api-2#kubernetescompute-and-legacy-akscompute)
